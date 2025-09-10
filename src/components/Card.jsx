@@ -1,6 +1,7 @@
 export default function Card({ urlImage, showTitle }) {
 	const item5 = urlImage.split('/').at(-1);
-	const badNameImagen = item5.split('.')[0];
+	let badNameImagen = item5.split('.')[0];
+	badNameImagen = badNameImagen.split('-')[0]; //Para descartar el resto de nombre que le incluye Vercel a los archivos
 	let nameImagen = badNameImagen
 		.replaceAll('%20', ' ')
 		.replaceAll('%C3%B3', 'ó')
