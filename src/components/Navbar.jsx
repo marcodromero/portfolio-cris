@@ -1,4 +1,4 @@
-import logoCake from '../assets/images/logo-cake.png';
+import logoCake from '../assets/images/logo-cake.webp';
 
 export default function Navbar() {
 	return (

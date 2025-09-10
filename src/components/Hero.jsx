@@ -1,4 +1,4 @@
-import avatar from '../assets/images/avatar.png';
+import avatar from '../assets/images/avatar.webp';
 
 export default function Hero() {
 	return (

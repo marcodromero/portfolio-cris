@@ -1,12 +1,12 @@
 import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import background from './assets/images/background2.jpg';
-import bannerTortas from './assets/images/banners/banner-tortas.png';
-import bannerTartas from './assets/images/banners/banner-tartas.png';
-import bannerTortasPersonalizadas from './assets/images/banners/banner-tortas-personalizadas.png';
-import bannerPanificados from './assets/images/banners/banner-panificados.png';
-import bannerBocados from './assets/images/banners/banner-bocados.png';
+import background from './assets/images/background2.webp';
+import bannerTortas from './assets/images/banners/banner-tortas.webp';
+import bannerTartas from './assets/images/banners/banner-tartas.webp';
+import bannerTortasPersonalizadas from './assets/images/banners/banner-tortas-personalizadas.webp';
+import bannerPanificados from './assets/images/banners/banner-panificados.webp';
+import bannerBocados from './assets/images/banners/banner-bocados.webp';
 import {
 	imgBocadosArray,
 	imgPanificadosArray,
