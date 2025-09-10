@@ -1,5 +1,5 @@
 export default function Card({ urlImage, showTitle }) {
-	const item5 = urlImage.split('/')[5];
+	const item5 = urlImage.split('/').at(-1);
 	const badNameImagen = item5.split('.')[0];
 	let nameImagen = badNameImagen
 		.replaceAll('%20', ' ')
