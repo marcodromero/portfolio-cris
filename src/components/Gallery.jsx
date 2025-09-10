@@ -1,4 +1,4 @@
-import Card from './card';
+import Card from './Card';
 
 export default function Gallery({ banner, array, showTitle = true }) {
 	return (
