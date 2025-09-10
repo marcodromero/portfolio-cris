@@ -1,5 +1,4 @@
 import './App.css';
-import Card from './components/card';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import background from './assets/images/background2.jpg';
